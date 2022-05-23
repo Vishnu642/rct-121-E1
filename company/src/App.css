@@ -1,6 +1,23 @@
 .App {
   text-align: center;
 }
+.button-1 {
+  padding: 1rem;
+  border: 0px;
+  margin-right: 0.5rem;
+  background: tomato;
+  border-radius: 0.25rem;
+}
+
+.button-1:hover {
+  cursor: pointer;
+  background: rebeccapurple;
+  color: white;
+}
+
+.button-1:disabled {
+  cursor: not-allowed;
+}
 
 .App-logo {
   height: 40vmin;
